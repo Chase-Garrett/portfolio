@@ -10,6 +10,13 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    boxShadow: "none",
+  },
+  toolbar: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
   },
 };
 
@@ -23,7 +30,7 @@ export default function Nav() {
   return (
     <AppBar sx={styles.appBar}>
       <Container maxWidth="sm">
-        <Toolbar disableGutters>
+        <Toolbar disableGutters sx={styles.toolbar}>
           <Link
             variant="h6"
             component="a"
