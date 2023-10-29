@@ -40,6 +40,7 @@ export default function Nav() {
               color: isLinkActive("/") ? "#255821" : "#918b95",
               textDecoration: "none",
               textShadow: isLinkActive("/") ? "1px 1px 10px #668a64" : "none",
+              fontFamily: "Oswald, sans-serif",
             }}
           >
             Home
@@ -55,6 +56,7 @@ export default function Nav() {
               textShadow: isLinkActive("/About")
                 ? "1px 1px 10px #668a64"
                 : "none",
+              fontFamily: "Oswald, sans-serif",
             }}
           >
             &nbsp;About
@@ -70,6 +72,7 @@ export default function Nav() {
               textShadow: isLinkActive("/Projects")
                 ? "1px 1px 10px #668a64"
                 : "none",
+              fontFamily: "Oswald, sans-serif",
             }}
           >
             &nbsp;Projects
@@ -85,6 +88,7 @@ export default function Nav() {
               textShadow: isLinkActive("/Contact")
                 ? "1px 1px 10px #668a64"
                 : "none",
+              fontFamily: "Oswald, sans-serif",
             }}
           >
             &nbsp;Contact
