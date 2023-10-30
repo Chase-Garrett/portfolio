@@ -36,8 +36,8 @@ export default function Nav() {
             component="a"
             to="/"
             style={{
-              fontSize: "30px",
-              color: isLinkActive("/") ? "#255821" : "#918b95",
+              fontSize: isLinkActive("/") ? "40px" : "30px",
+              color: isLinkActive("/") ? "#668a64" : "#918b95",
               textDecoration: "none",
               textShadow: isLinkActive("/") ? "1px 1px 10px #668a64" : "none",
               fontFamily: "Oswald, sans-serif",
@@ -50,8 +50,8 @@ export default function Nav() {
             component="a"
             to="/About"
             style={{
-              fontSize: "30px",
-              color: isLinkActive("/About") ? "#255821" : "#918b95",
+              fontSize: isLinkActive("/About") ? "40px" : "30px",
+              color: isLinkActive("/About") ? "#668a64" : "#918b95",
               textDecoration: "none",
               textShadow: isLinkActive("/About")
                 ? "1px 1px 10px #668a64"
@@ -66,8 +66,8 @@ export default function Nav() {
             component="a"
             to="/Projects"
             style={{
-              fontSize: "30px",
-              color: isLinkActive("/Projects") ? "#255821" : "#918b95",
+              fontSize: isLinkActive("/Projects") ? "40px" : "30px",
+              color: isLinkActive("/Projects") ? "#668a64" : "#918b95",
               textDecoration: "none",
               textShadow: isLinkActive("/Projects")
                 ? "1px 1px 10px #668a64"
@@ -82,8 +82,8 @@ export default function Nav() {
             component="a"
             to="/Contact"
             style={{
-              fontSize: "30px",
-              color: isLinkActive("/Contact") ? "#255821" : "#918b95",
+              fontSize: isLinkActive("/Contact") ? "40px" : "30px",
+              color: isLinkActive("/Contact") ? "#668a64" : "#918b95",
               textDecoration: "none",
               textShadow: isLinkActive("/Contact")
                 ? "1px 1px 10px #668a64"

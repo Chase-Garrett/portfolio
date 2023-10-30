@@ -34,9 +34,6 @@ export default function HomePage() {
       >
         Full-Stack Solutions
       </Typography>
-      <Typography variant="h6" component="h6" sx={styles.typography}>
-        Bespoke, elegant tech solutions tailored for your needs.
-      </Typography>
     </Box>
   );
 }
