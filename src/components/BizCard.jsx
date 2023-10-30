@@ -48,6 +48,8 @@ export default function BizCard() {
     <Box sx={{ maxWidth: 400 }}>
       <Card
         sx={{
+          width: "15rem",
+          height: "16rem",
           border: "1px solid",
           borderColor: "#668a64",
           backgroundColor: "#22162B",
