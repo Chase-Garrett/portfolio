@@ -11,13 +11,25 @@ const styles = {
     borderColor: "#668a64",
     backgroundColor: "#22162B",
     color: "#ffffff",
+    fontFamily: "Oswald, sans-serif",
+    textAlign: "center",
+    textShadow: "1px 1px 10px #668a64",
   },
 };
 
 const card = (
   <React.Fragment>
     <CardContent>
-      <Typography variant="h6" component="h6" sx={{ color: "#ffffff" }}>
+      <Typography
+        variant="h6"
+        component="h6"
+        sx={{
+          color: "#ffffff",
+          fontFamily: "Oswald, sans-serif",
+          textAlign: "center",
+          textShadow: "1px 1px 10px #668a64",
+        }}
+      >
         Technical Skills
       </Typography>
       <Chip label="HTML" sx={styles.chip} />
@@ -44,6 +56,7 @@ export default function TechCard() {
           border: "1px solid",
           borderColor: "#668a64",
           backgroundColor: "#22162B",
+          boxShadow: "1px 1px 10px #668a64",
         }}
       >
         {card}

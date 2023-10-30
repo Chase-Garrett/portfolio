@@ -37,7 +37,7 @@ export default function Nav() {
             to="/"
             style={{
               fontSize: isLinkActive("/") ? "40px" : "30px",
-              color: isLinkActive("/") ? "#255821" : "#918b95",
+              color: isLinkActive("/") ? "#668a64" : "#918b95",
               textDecoration: "none",
               textShadow: isLinkActive("/") ? "1px 1px 10px #668a64" : "none",
               fontFamily: "Oswald, sans-serif",
@@ -51,7 +51,7 @@ export default function Nav() {
             to="/About"
             style={{
               fontSize: isLinkActive("/About") ? "40px" : "30px",
-              color: isLinkActive("/About") ? "#255821" : "#918b95",
+              color: isLinkActive("/About") ? "#668a64" : "#918b95",
               textDecoration: "none",
               textShadow: isLinkActive("/About")
                 ? "1px 1px 10px #668a64"
@@ -67,7 +67,7 @@ export default function Nav() {
             to="/Projects"
             style={{
               fontSize: isLinkActive("/Projects") ? "40px" : "30px",
-              color: isLinkActive("/Projects") ? "#255821" : "#918b95",
+              color: isLinkActive("/Projects") ? "#668a64" : "#918b95",
               textDecoration: "none",
               textShadow: isLinkActive("/Projects")
                 ? "1px 1px 10px #668a64"
@@ -83,7 +83,7 @@ export default function Nav() {
             to="/Contact"
             style={{
               fontSize: isLinkActive("/Contact") ? "40px" : "30px",
-              color: isLinkActive("/Contact") ? "#255821" : "#918b95",
+              color: isLinkActive("/Contact") ? "#668a64" : "#918b95",
               textDecoration: "none",
               textShadow: isLinkActive("/Contact")
                 ? "1px 1px 10px #668a64"
