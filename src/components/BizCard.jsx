@@ -14,6 +14,7 @@ const styles = {
     fontFamily: "Oswald, sans-serif",
     textAlign: "center",
     textShadow: "1px 1px 10px #668a64",
+    margin: ".2rem",
   },
 };
 
