@@ -21,7 +21,6 @@ export default function ContactPage() {
       color: "#918b95",
       textAlign: "center",
       fontFamily: "Oswald, sans-serif",
-      transition: "color 0.2s ease",
     },
     link: {
       textDecoration: "none",
@@ -59,15 +58,15 @@ export default function ContactPage() {
           Contact Me
         </Typography>
       </Grid>
-      <Grid itemxs="1" sm="1" md="1" lg="1" />
-      <Grid itemxs="1" sm="1" md="1" lg="1" />
-      <Grid itemxs="1" sm="1" md="1" lg="1" />
+      <Grid item xs="1" sm="1" md="1" lg="1" />
+      <Grid item xs="1" sm="1" md="1" lg="1" />
+      <Grid item xs="1" sm="1" md="1" lg="1" />
       <Grid item>
         <Typography variant="h5" component="h5" sx={styles.typography}>
           <a href="mailto:chasegarrett@tutanota.com" style={styles.link}>
             <EmailIcon sx={styles.icon} />{" "}
             <span onMouseEnter={handleHover} onMouseLeave={handleUnhover}>
-              EMAIL&nbsp;&nbsp;
+              Email&nbsp;&nbsp;
             </span>
             <EmailIcon sx={styles.icon} />
           </a>

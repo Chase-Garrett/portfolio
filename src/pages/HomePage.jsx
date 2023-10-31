@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-import { Box } from "@mui/system";
+import Grid from "@mui/material/Grid";
 
 export default function HomePage() {
   const styles = {
@@ -22,18 +22,24 @@ export default function HomePage() {
   };
 
   return (
-    <Box disableGutters sx={styles.box}>
-      <Typography variant="h2" component="h2" sx={styles.typography}>
-        Chase Garrett
-      </Typography>
-      <Typography
-        variant="h1"
-        component="h1"
-        gutterBottom="true"
-        sx={styles.typography}
-      >
-        Full-Stack Solutions
-      </Typography>
-    </Box>
+    <Grid container disableGutters sx={styles.box}>
+      <Grid item>
+        <Typography variant="h2" component="h2" sx={styles.typography}>
+          Chase Garrett
+        </Typography>
+      </Grid>
+      <Grid item xs="1" sm="1" md="1" lg="1" />
+      <Grid item xs="1" sm="1" md="1" lg="1" />
+      <Grid item>
+        <Typography
+          variant="h1"
+          component="h1"
+          gutterBottom="true"
+          sx={styles.typography}
+        >
+          Full-Stack Solutions
+        </Typography>
+      </Grid>
+    </Grid>
   );
 }
