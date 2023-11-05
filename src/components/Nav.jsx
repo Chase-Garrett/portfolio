@@ -12,6 +12,7 @@ const styles = {
     alignItems: "center",
     boxShadow: "none",
     position: "static",
+    maxWidth: "100vw",
   },
   toolbar: {
     display: "flex",
