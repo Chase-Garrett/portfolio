@@ -36,7 +36,7 @@ On the projects page clicking on a project card takes you to the github repo. On
 
 ## Credits
 
-This site uses netlify for hosting and React for the frontend design.
+This site uses netlify for hosting and React for the frontend design. It also utilizes the Material UI library.
 
 ## Tests
 
