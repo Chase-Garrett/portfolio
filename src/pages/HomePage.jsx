@@ -10,8 +10,7 @@ export default function HomePage() {
       justifyContent: "center",
       alignItems: "center",
       height: "100vh",
-      width: "100vw",
-      overflowX: "hidden",
+      overflow: "hidden",
     },
     typography: {
       color: "#ffffff",

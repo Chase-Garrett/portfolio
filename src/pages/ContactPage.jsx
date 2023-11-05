@@ -13,8 +13,7 @@ export default function ContactPage() {
       justifyContent: "center",
       alignItems: "center",
       height: "100vh",
-      width: "100vw",
-      overflowX: "hidden",
+      overflow: "hidden",
       paddingBottom: "50vh",
     },
     typography: {
