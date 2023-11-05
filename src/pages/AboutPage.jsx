@@ -21,7 +21,7 @@ export default function AboutPage() {
         alignItems="center"
         sx={styles.box}
       >
-        <Grid item xs="1" sm="1" md="1" lg="1" />
+        <Grid item xs={1} sm={1} md={1} lg={1} />
         <Grid item>
           <Grid
             container
@@ -30,7 +30,7 @@ export default function AboutPage() {
             justifyContent="center"
             alignItems="center"
           >
-            <Grid item xs={3} sm={3} md={3} lg={3}>
+            <Grid item xs={3} sm={3} md={3} lg={3} sx={{ marginTop: "5em" }}>
               <TechCard />
             </Grid>
             <Grid item xs={1} sm={1} md={1} lg={1} />
@@ -39,7 +39,7 @@ export default function AboutPage() {
             <Grid item xs={1} sm={1} md={1} lg={1} />
             <Grid item xs={1} sm={1} md={1} lg={1} />
             <Grid item xs={1} sm={1} md={1} lg={1} />
-            <Grid item xs={3} sm={3} md={3} lg={3}>
+            <Grid item xs={3} sm={3} md={3} lg={3} sx={{ marginTop: "5em" }}>
               <BizCard />
             </Grid>
           </Grid>

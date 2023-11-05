@@ -19,6 +19,9 @@ export default function ProjectCard(props) {
         borderColor: "#668a64",
         backgroundColor: "#22162B",
         boxShadow: "1px 1px 10px #668a64",
+        borderRadius: "10px",
+        maxWidth: 345,
+        minWidth: 345,
       }}
     >
       <CardActionArea href={`${props.url}`} target="_blank" rel="noreferrer">
