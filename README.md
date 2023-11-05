@@ -30,6 +30,8 @@ The portfolio site can be found here: https://cgarrett.netlify.app/
 
 The top of the site has a navigation bar that takes you to different sections of the site.
 
+![Screenshot of the home screen](./images/homescreen.png)
+
 On the projects page clicking on a project card takes you to the github repo. On the contacts page clicking on one of the contact options either takes you to the site or opens a new email draft.
 
 ## Credits
