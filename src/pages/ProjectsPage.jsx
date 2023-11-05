@@ -8,13 +8,6 @@ export default function ProjectsPage() {
   const styles = {
     box: {
       backgroundColor: "#22162B",
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "center",
-      height: "100vh",
-      width: "100vw",
-      overflowX: "hidden",
     },
   };
 
@@ -69,7 +62,13 @@ export default function ProjectsPage() {
 
   return (
     <Box sx={styles.box}>
-      <Grid container sx={styles.box} spacing={2} alignItems="center">
+      <Grid
+        container
+        spacing={2}
+        alignItems="center"
+        flexDirection={"column"}
+        paddingBottom={15}
+      >
         {projects.map((project, index) => (
           <Grid item key={index}>
             <ProjectCard
