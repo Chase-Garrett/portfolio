@@ -11,6 +11,7 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     boxShadow: "none",
+    position: "static",
   },
   toolbar: {
     display: "flex",
@@ -29,72 +30,70 @@ export default function Nav() {
 
   return (
     <AppBar sx={styles.appBar}>
-      <Container maxWidth="sm">
-        <Toolbar disableGutters sx={styles.toolbar}>
-          <Link
-            variant="h6"
-            component="a"
-            to="/"
-            style={{
-              fontSize: isLinkActive("/") ? "40px" : "30px",
-              color: isLinkActive("/") ? "#668a64" : "#918b95",
-              textDecoration: "none",
-              textShadow: isLinkActive("/") ? "1px 1px 10px #668a64" : "none",
-              fontFamily: "Oswald, sans-serif",
-            }}
-          >
-            Home
-          </Link>
-          <Link
-            variant="h6"
-            component="a"
-            to="/About"
-            style={{
-              fontSize: isLinkActive("/About") ? "40px" : "30px",
-              color: isLinkActive("/About") ? "#668a64" : "#918b95",
-              textDecoration: "none",
-              textShadow: isLinkActive("/About")
-                ? "1px 1px 10px #668a64"
-                : "none",
-              fontFamily: "Oswald, sans-serif",
-            }}
-          >
-            &nbsp;About
-          </Link>
-          <Link
-            variant="h6"
-            component="a"
-            to="/Projects"
-            style={{
-              fontSize: isLinkActive("/Projects") ? "40px" : "30px",
-              color: isLinkActive("/Projects") ? "#668a64" : "#918b95",
-              textDecoration: "none",
-              textShadow: isLinkActive("/Projects")
-                ? "1px 1px 10px #668a64"
-                : "none",
-              fontFamily: "Oswald, sans-serif",
-            }}
-          >
-            &nbsp;Projects
-          </Link>
-          <Link
-            variant="h6"
-            component="a"
-            to="/Contact"
-            style={{
-              fontSize: isLinkActive("/Contact") ? "40px" : "30px",
-              color: isLinkActive("/Contact") ? "#668a64" : "#918b95",
-              textDecoration: "none",
-              textShadow: isLinkActive("/Contact")
-                ? "1px 1px 10px #668a64"
-                : "none",
-              fontFamily: "Oswald, sans-serif",
-            }}
-          >
-            &nbsp;Contact
-          </Link>
-        </Toolbar>
-      </Container>
+      <Toolbar disableGutters sx={styles.toolbar}>
+        <Link
+          variant="h6"
+          component="a"
+          to="/"
+          style={{
+            fontSize: isLinkActive("/") ? "40px" : "30px",
+            color: isLinkActive("/") ? "#668a64" : "#918b95",
+            textDecoration: "none",
+            textShadow: isLinkActive("/") ? "1px 1px 10px #668a64" : "none",
+            fontFamily: "Oswald, sans-serif",
+          }}
+        >
+          Home
+        </Link>
+        <Link
+          variant="h6"
+          component="a"
+          to="/About"
+          style={{
+            fontSize: isLinkActive("/About") ? "40px" : "30px",
+            color: isLinkActive("/About") ? "#668a64" : "#918b95",
+            textDecoration: "none",
+            textShadow: isLinkActive("/About")
+              ? "1px 1px 10px #668a64"
+              : "none",
+            fontFamily: "Oswald, sans-serif",
+          }}
+        >
+          &nbsp;About
+        </Link>
+        <Link
+          variant="h6"
+          component="a"
+          to="/Projects"
+          style={{
+            fontSize: isLinkActive("/Projects") ? "40px" : "30px",
+            color: isLinkActive("/Projects") ? "#668a64" : "#918b95",
+            textDecoration: "none",
+            textShadow: isLinkActive("/Projects")
+              ? "1px 1px 10px #668a64"
+              : "none",
+            fontFamily: "Oswald, sans-serif",
+          }}
+        >
+          &nbsp;Projects
+        </Link>
+        <Link
+          variant="h6"
+          component="a"
+          to="/Contact"
+          style={{
+            fontSize: isLinkActive("/Contact") ? "40px" : "30px",
+            color: isLinkActive("/Contact") ? "#668a64" : "#918b95",
+            textDecoration: "none",
+            textShadow: isLinkActive("/Contact")
+              ? "1px 1px 10px #668a64"
+              : "none",
+            fontFamily: "Oswald, sans-serif",
+          }}
+        >
+          &nbsp;Contact
+        </Link>
+      </Toolbar>
     </AppBar>
   );
 }
