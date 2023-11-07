@@ -3,6 +3,7 @@ import { CardContent } from "@mui/material";
 import { CardMedia } from "@mui/material";
 import { CardActionArea } from "@mui/material";
 import Typography from "@mui/material/Typography";
+import Chip from "@mui/material/Chip";
 
 export default function ProjectCard(props) {
   const styles = {
@@ -10,6 +11,16 @@ export default function ProjectCard(props) {
       color: "#ffffff",
       textShadow: "1px 1px 10px #668a64",
       fontFamily: "Oswald, sans-serif",
+    },
+    chip: {
+      border: "1px solid",
+      borderColor: "#668a64",
+      backgroundColor: "#22162B",
+      color: "#ffffff",
+      fontFamily: "Oswald, sans-serif",
+      textAlign: "center",
+      textShadow: "1px 1px 10px #668a64",
+      margin: ".2rem",
     },
   };
   return (
@@ -43,6 +54,9 @@ export default function ProjectCard(props) {
           <Typography variant="body1" sx={styles.typography}>
             {props.description}
           </Typography>
+          {props.tech.map((tech, index) => (
+            <Chip key={index} label={tech} sx={styles.chip}></Chip>
+          ))}
         </CardContent>
       </CardActionArea>
     </Card>
