@@ -19,6 +19,7 @@ export default function ProjectsPage() {
       description:
         "Web based text editor with built in JavaScript syntax highlighting.",
       url: "https://github.com/Chase-Garrett/js-box",
+      tech: ["Express", "Webpack", "Node"],
     },
 
     {
@@ -27,6 +28,7 @@ export default function ProjectsPage() {
       title: "Note Taker",
       description: "Web based note taking application.",
       url: "https://github.com/Chase-Garrett/note-taker",
+      tech: ["Express", "Node"],
     },
 
     {
@@ -34,6 +36,7 @@ export default function ProjectsPage() {
       title: "Flock",
       description: "Social media backend API.",
       url: "https://github.com/Chase-Garrett/flock",
+      tech: ["Express", "Node", "MongoDB", "Mongoose"],
     },
 
     {
@@ -42,6 +45,16 @@ export default function ProjectsPage() {
       title: "Dungeonkit",
       description: "Dungeons and Dragons character sheet creator.",
       url: "https://github.com/Chase-Garrett/dungeonkit",
+      tech: [
+        "Express",
+        "Node",
+        "MySQL",
+        "Sequelize",
+        "Bootstrap",
+        "Handlebars",
+        "Bcrypt",
+        "Puppeteer",
+      ],
     },
 
     {
@@ -50,6 +63,7 @@ export default function ProjectsPage() {
       title: "Earful",
       description: "Music recommendation engine.",
       url: "https://github.com/Chase-Garrett/earful",
+      tech: ["Bulma", "APIs", "JQuery"],
     },
 
     {
@@ -57,6 +71,7 @@ export default function ProjectsPage() {
       title: "README Generator",
       description: "CLI README generator for GitHub projects.",
       url: "https://github.com/Chase-Garrett/readme-gen",
+      tech: ["Node", "Inquirer"],
     },
   ];
 
@@ -76,6 +91,7 @@ export default function ProjectsPage() {
               title={project.title}
               description={project.description}
               url={project.url}
+              tech={project.tech}
             />
           </Grid>
         ))}
